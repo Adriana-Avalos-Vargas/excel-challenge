@@ -174,8 +174,8 @@ It could be interesting to analyze which are the most expensive campaigns accord
 Another important fact could be to understand the campaigns with more backers by category. In this way we could try to figure out which projects are more interesting to people in a given country. This could be achieved through a pivot table than has in its rows the category, in the column the number of backers (as a sum) and filter by country. 
 Finally, learning more about backers might help to decide where is appropriate to launch a given kind of campaign in order to get a success. For this, it might be useful to make a pivot table that in its rows has the subcategories, in its columns the mean of the average donation, and filtered it by country.
 
-* To submit your homework, upload the solution and files to a GitHub repo, Dropbox, or Google Drive and submit the link to <https://bootcampspot.com/>.
+
 
 - - -
-
+Author: Adriana Avalos Vargas based on md file from TES
 © 2019 Trilogy Education Services
