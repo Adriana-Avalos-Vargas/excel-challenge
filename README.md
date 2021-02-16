@@ -28,21 +28,19 @@ Using the Excel table provided, somo modifications and analysis was done. Data c
 
 * Also each cell in the `Percent Funded` column was colored using a three-color scale and conditional formating. The scale started at 0 and had a dark shade of red, transitioning to green at 100, and blue at 200.
 
-* Through a formula a a new column was creanted and called `Average Donation` . the goal was to uncover how much each backer for the project paid on average.
+* Through a formula a new column was creanted and called `Average Donation` . This is done to uncover how much each backer for the project paid on average.
 
-* Create two new columns, one called `Category` at Q and another called `Sub-Category` at R, which use formulas to split the `Category and Sub-Category` column into two parts.
+* Also, to new columns were created. One was called `Category` and the other one `Sub-Category`. The columns were fileld by spliting the `Category and Sub-Category` column into two parts.
 
   ![Category Stats](Images/CategoryStats.PNG)
 
-  * Create a new sheet with a pivot table that will analyze your initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per **category**.
+  * On the other handa, a pivot table was created in a new sheet. The purpose was to analyze the initial worksheet and count how many campaigns were successful, failed, canceled, or are currently live per **category**.
 
-  * Create a stacked column pivot chart that can be filtered by country based on the table you have created.
+  * In the same new sheet a stacked column pivot chart that can be filtered by country was created. Such a chart was based on the pivot table previusly created.
 
   ![Subcategory Stats](Images/SubcategoryStats.PNG)
 
-  * Create a new sheet with a pivot table that will analyze your initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per **sub-category**.
-
-  * Create a stacked column pivot chart that can be filtered by country and parent-category based on the table you have created.
+  * Similarly to the last two points a new pivot table and stacked column pivot chart is done but now it is analyzed how many campaigns were successful, failed, or canceled, or are currently live per **sub-category**.
 
 * The dates stored within the `deadline` and `launched_at` columns use Unix timestamps. Fortunately for us, [there is a formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) that can be used to convert these timestamps to a normal date.
 
