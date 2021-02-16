@@ -101,12 +101,13 @@ In order to obtain these metrics, the number of backers of successful and unsucc
 
 The dataset is composed of 4114 projects with a very wide range of categories and subcategories. The data base is distributed between four categories of successful and unsuccessful campaigns, as shown in Table 1.
 
-|Succes of the campaign|Number of campaigns|
-|canceled|349|
-|failed|1530|
-|live|50|
-|successful|2185|
-|Total|4114|
+| Succes of the campaign | Number of campaigns |
+| --- | ----------- |
+| canceled | 349 |
+| failed | 1530 |
+| live | 50 |
+| successful | 2185 |
+| Total | 4114 |
 
 Table 1. Distribution of campaigns according to their success.
 
